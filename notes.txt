@@ -1,0 +1,41 @@
+4
+United States
+Brazil
+Mexico
+Paraguay
+
+7
+Brunei
+China
+India
+Pakistan
+Indonesia
+Singapore
+Japan
+
+5
+Kuwait
+Bahrain
+Oman
+Qatar
+Saudi Arabia
+
+8
+Congo, DR
+Eritrea
+Ethiopia
+Mozambique
+Niger
+Nigeria
+Tanzania
+Togo
+
+6
+Germany
+Iceland
+Ireland
+Luxembourg
+Russia
+Switzerland
+
+for gdp, source: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD

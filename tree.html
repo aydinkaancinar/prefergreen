@@ -1,0 +1,115 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Prefer Green</title>
+    <link rel="icon" href="./assets/leaf.png">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <!-- JavaScript and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="py-3 navbar navbar-expand-lg fixed-top auto-hiding-navbar">
+    <div class="container">
+      <a class="navbar-brand"" href="#">
+        <img class="logo" src="./assets/leaf.png" /> Group 22
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="overview.html">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tree.html"">Demo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  </body>
+  <section class="tree-section">
+    <div class="tree-div">
+    <div>
+        <div id="tree-parent" class="tree-parent">
+        <img class="tree" src="./assets/branch.png" />
+        <div style="font-size: 50px; color:forestgreen; position: absolute; top: 20px;left: 0; padding: 20px"> Mother Earth:</div>
+        <div style="font-size: 25px; color:forestgreen; position: absolute; top: 80px;left: 0; padding: 20px;"> Nations' Green Energy Preference vs Some Other Metrics</div>
+        <img style="position: absolute;top: 120px;left: 20px;width: 40%;" src="./assets/legend.png" />
+        <script src="./country_vals.js"></script>
+        <script>
+            console.log(leaf)
+            var arrayLength = leaf.length;
+            for (var i = 0; i < arrayLength; i++) {
+                pos = "top: " + leaf[i]["y"] + "px; left: " + leaf[i]["x"]  + "px;"; 
+                source = "./assets/leaves/"+leaf[i]["region"]+"/" +leaf[i]["Code"]+ ".png"
+                $('#tree-parent').append($('<img/>', { id: leaf[i]["Code"], 'class' : 'leaf', 'style' : pos, 'src' : source}))
+                pos = "top: " + (parseInt(leaf[i]["y"])+10)+ "px; left: " + (parseInt(leaf[i]["x"]) + 20)+ "px;"; 
+                var ss = {
+                    id: "foo",
+                    style: 'font-size: 10px; color: black; ' + pos + '; position: absolute; border-radius: 5px; border: 2px solid #000000; background-color: white'
+                };
+                var $div = $("<div>", ss);
+                $div.html(leaf[i]["LOCATION"]);
+                $("#tree-parent").append($div);
+                console.log(leaf[i]);
+            }
+        </script>
+    </div>
+        <p>Select a filter:</p>
+    <div>
+        <input type="radio" name="size" value="GDP" id="GDP">
+        <label for="GDP">GDP</label>
+    </div>
+    <div>
+        <input type="radio" name="size" value="GDP/capita" id="GDP/capita">
+        <label for="GDP/capita">GDP/capita</label>
+    </div>
+    <div>
+        <input type="radio" name="size" value="Population" id="Population">
+        <label for="Population">Population</label>
+    </div>
+    <div>
+        <input type="radio" name="size" value="Poverty" id="Poverty">
+        <label for="Poverty">Poverty</label>
+    </div>
+    <p>
+        <button id="btn">Show Selected Value</button>
+    </p>
+
+    <p id="output"></p>
+        <script>
+            const btn = document.querySelector('#btn');        
+            const radioButtons = document.querySelectorAll('input[name="size"]');
+            btn.addEventListener("click", () => {
+                let selectedSize;
+                for (const radioButton of radioButtons) {
+                    if (radioButton.checked) {
+                        selectedSize = radioButton.value;
+                        break;
+                    }
+                }
+                // show the output:
+                output.innerText = selectedSize ? `You selected ${selectedSize}` : `You haven't selected any size`;
+            });
+        </script>
+    </div>
+</div>
+    </section>
+</html>
