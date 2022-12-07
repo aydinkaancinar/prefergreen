@@ -73,6 +73,7 @@
                 $('#tree-parent').append($('<div/>', { id: window_id, 'class' : 'window'}))
                 $('#'+window_id).append($('<img/>', { id: window_id+"IMG", 'class' : 'window_leaf', 'src' : source}))
                 $('#'+window_id).append($('<div/>', { id: window_id+"IMG_close", 'class' : 'window_close'}))
+                $('#'+window_id).append($('<div/>', { id: window_id+"IMG_name", 'style' : 'font-size: 30px; top: 10px; left: 10px; color: black; position: absolute; border-radius: 5px; border: 2px solid #000000; background-color: white', 'html' : leaf[i]["LOCATION"]}))
                 console.log(window_id)
                 $("#"+leaf[i]["Code"]).on('click', function() {
                   console.log(window_id)

@@ -126,6 +126,7 @@ body {
 
 .leaf:hover {
   transform: scale(1.2);
+  cursor: pointer;
 }
 
 .window {
@@ -162,4 +163,5 @@ body {
 
 .window_close:hover {
   transform: scale(1.2);
+  cursor: pointer;
 }
