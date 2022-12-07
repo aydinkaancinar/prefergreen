@@ -56,18 +56,46 @@
         <script>
             console.log(leaf)
             var arrayLength = leaf.length;
-            for (var i = 0; i < arrayLength; i++) {
+            for (let i = 0; i < arrayLength; i++) {
                 pos = "top: " + leaf[i]["y"] + "px; left: " + leaf[i]["x"]  + "px;"; 
                 source = "./assets/leaves/"+leaf[i]["region"]+"/" +leaf[i]["Code"]+ ".png"
                 $('#tree-parent').append($('<img/>', { id: leaf[i]["Code"], 'class' : 'leaf', 'style' : pos, 'src' : source}))
                 pos = "top: " + (parseInt(leaf[i]["y"])+10)+ "px; left: " + (parseInt(leaf[i]["x"]) + 20)+ "px;"; 
                 var ss = {
-                    id: "foo",
+                    id: leaf[i]["Code"]+"name",
                     style: 'font-size: 10px; color: black; ' + pos + '; position: absolute; border-radius: 5px; border: 2px solid #000000; background-color: white'
                 };
                 var $div = $("<div>", ss);
                 $div.html(leaf[i]["LOCATION"]);
                 $("#tree-parent").append($div);
+                let window_id = leaf[i]["Code"] + "pop";
+                
+                $('#tree-parent').append($('<div/>', { id: window_id, 'class' : 'window'}))
+                $('#'+window_id).append($('<img/>', { id: window_id+"IMG", 'class' : 'window_leaf', 'src' : source}))
+                $('#'+window_id).append($('<div/>', { id: window_id+"IMG_close", 'class' : 'window_close'}))
+                console.log(window_id)
+                $("#"+leaf[i]["Code"]).on('click', function() {
+                  console.log(window_id)
+                  $('#'+window_id).css({
+                    'visibility': 'visible',
+                });
+                $('#'+leaf[i]["Code"]+"name",).css({
+                    'position': '',
+                });
+                  /*$("#div2,#div3,#div4").fadeOut();*/
+                });
+
+                $("#"+window_id+"IMG_close").on('click', function() {
+                  console.log(window_id)
+                  $('#'+window_id).css({
+                    'visibility': 'hidden',
+                });
+                $('#'+leaf[i]["Code"]+"name",).css({
+                    'position': 'absolute',
+                });
+                  /*$("#div2,#div3,#div4").fadeOut();*/
+                });
+
                 console.log(leaf[i]);
             }
         </script>
