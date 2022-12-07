@@ -11,7 +11,12 @@ leaf = [
       poverty: "Low",
       x: "440",
       y: "690",
-      region: "AFRICA"
+      region: "AFRICA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "5",
@@ -25,7 +30,12 @@ leaf = [
       poverty: "Low",
       x: "470",
       y: "720",
-      region: "AFRICA"
+      region: "AFRICA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "6",
@@ -39,7 +49,12 @@ leaf = [
       poverty: "Low",
       x: "570",
       y: "745",
-      region: "AFRICA"
+      region: "AFRICA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "1",
@@ -53,7 +68,12 @@ leaf = [
       poverty: "Low",
       x: "615",
       y: "800",
-      region: "AFRICA"
+      region: "AFRICA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "2",
@@ -67,7 +87,12 @@ leaf = [
       poverty: "Low",
       x: "595",
       y: "815",
-      region: "AFRICA"
+      region: "AFRICA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "3",
@@ -81,7 +106,12 @@ leaf = [
       poverty: "Low",
       x: "545",
       y: "815",
-      region: "AFRICA"
+      region: "AFRICA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "8",
@@ -95,7 +125,12 @@ leaf = [
       poverty: "Low",
       x: "445",
       y: "790",
-      region: "AFRICA"
+      region: "AFRICA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "24",
@@ -109,7 +144,12 @@ leaf = [
       poverty: "Low",
       x: "380",
       y: "780",
-      region: "AFRICA"
+      region: "AFRICA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "21",
@@ -123,7 +163,12 @@ leaf = [
       poverty: "Low",
       x: "635",
       y: "235",
-      region: "ASIA"
+      region: "ASIA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "29",
@@ -137,7 +182,12 @@ leaf = [
       poverty: "Medidum-Low",
       x: "530",
       y: "275",
-      region: "ASIA"
+      region: "ASIA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "71",
@@ -151,7 +201,12 @@ leaf = [
       poverty: "Medium-High",
       x: "710",
       y: "210",
-      region: "ASIA"
+      region: "ASIA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "128",
@@ -165,7 +220,12 @@ leaf = [
       poverty: "High",
       x: "715",
       y: "345",
-      region: "ASIA"
+      region: "ASIA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "49",
@@ -179,7 +239,12 @@ leaf = [
       poverty: "Medidum-Low",
       x: "765",
       y: "430",
-      region: "ASIA"
+      region: "ASIA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "134",
@@ -193,7 +258,12 @@ leaf = [
       poverty: "High",
       x: "810",
       y: "385",
-      region: "ASIA"
+      region: "ASIA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "110",
@@ -207,7 +277,12 @@ leaf = [
       poverty: "High",
       x: "765",
       y: "240",
-      region: "ASIA"
+      region: "ASIA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "120",
@@ -221,7 +296,12 @@ leaf = [
       poverty: "High",
       x: "355",
       y: "375",
-      region: "GULF"
+      region: "GULF",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "109",
@@ -235,7 +315,12 @@ leaf = [
       poverty: "High",
       x: "425",
       y: "350",
-      region: "GULF"
+      region: "GULF",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "92",
@@ -249,7 +334,12 @@ leaf = [
       poverty: "Medium-High",
       x: "475",
       y: "340",
-      region: "GULF"
+      region: "GULF",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "132",
@@ -263,7 +353,12 @@ leaf = [
       poverty: "High",
       x: "445",
       y: "465",
-      region: "GULF"
+      region: "GULF",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "115",
@@ -277,7 +372,12 @@ leaf = [
       poverty: "High",
       x: "405",
       y: "505",
-      region: "GULF"
+      region: "GULF",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "127",
@@ -291,7 +391,12 @@ leaf = [
       poverty: "High",
       x: "275",
       y: "400",
-      region: "AMERICA"
+      region: "AMERICA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "64",
@@ -305,7 +410,12 @@ leaf = [
       poverty: "Medium-High",
       x: "105",
       y: "515",
-      region: "AMERICA"
+      region: "AMERICA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "56",
@@ -319,7 +429,12 @@ leaf = [
       poverty: "Medidum-Low",
       x: "150",
       y: "315",
-      region: "AMERICA"
+      region: "AMERICA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "75",
@@ -333,7 +448,12 @@ leaf = [
       poverty: "Medium-High",
       x: "250",
       y: "355",
-      region: "AMERICA"
+      region: "AMERICA",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "122",
@@ -347,7 +467,12 @@ leaf = [
       poverty: "High",
       x: "645",
       y: "480",
-      region: "EUROPE"
+      region: "EUROPE",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "124",
@@ -361,7 +486,12 @@ leaf = [
       poverty: "High",
       x: "645",
       y: "570",
-      region: "EUROPE"
+      region: "EUROPE",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "131",
@@ -375,7 +505,12 @@ leaf = [
       poverty: "High",
       x: "580",
       y: "470",
-      region: "EUROPE"
+      region: "EUROPE",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "90",
@@ -389,7 +524,12 @@ leaf = [
       poverty: "Medium-High",
       x: "530",
       y: "485",
-      region: "EUROPE"
+      region: "EUROPE",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "133",
@@ -403,7 +543,12 @@ leaf = [
       poverty: "High",
       x: "600",
       y: "620",
-      region: "EUROPE"
+      region: "EUROPE",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     },
     {
       i: "135",
@@ -417,6 +562,11 @@ leaf = [
       poverty: "High",
       x: "565",
       y: "655",
-      region: "EUROPE"
+      region: "EUROPE",
+      plot1: "plot1.png",
+      plot2: "plot2.png",
+      plot3: "plot3.png",
+      plot4: "plot4.png",
+      info: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
     }
   ]
