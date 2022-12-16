@@ -16,7 +16,7 @@
     <nav class="py-3 navbar navbar-expand-lg fixed-top auto-hiding-navbar">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img class="logo" src="./assets/leaf.png" /> Group 22
+        <img class="logo" src="./assets/leaf.png" /> Prefer Green
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -71,11 +71,11 @@
                 $('#'+window_id).append($('<img/>', { id: window_id+"IMG", 'class' : 'window_leaf', 'src' : source}))
                 $('#'+window_id).append($('<div/>', { id: window_id+"IMG_close", 'class' : 'window_close'}))
                 $('#'+window_id).append($('<div/>', { id: window_id+"IMG_name", 'style' : 'font-size: 30px; top: 20px; left: 30px; color: black; position: absolute; border-radius: 5px; border: 2px solid #000000; background-color: white', 'html' : leaf[i]["LOCATION"]}))
-                $('#'+window_id).append($('<div/>', { id: window_id+"IMG_plot1", 'style' : 'height: 390px; width: 560px; top: 80px; left: 30px; color: black; position: absolute; border-radius: 5px; border: 2px solid #000000; background-color: rgba(146, 146, 146, 0.647)'}))
-                $('#'+window_id).append($('<div/>', { id: window_id+"IMG_plot2", 'style' : 'height: 390px; width: 560px; top: 80px; left: 600px; color: black; position: absolute; border-radius: 5px; border: 2px solid #000000; background-color: rgba(146, 146, 146, 0.647)'}))
-                $('#'+window_id).append($('<div/>', { id: window_id+"IMG_plot3", 'style' : 'height: 390px; width: 560px; top: 500px; left: 30px; color: black; position: absolute; border-radius: 5px; border: 2px solid #000000; background-color: rgba(146, 146, 146, 0.647)'}))
-                $('#'+window_id).append($('<div/>', { id: window_id+"IMG_plot4", 'style' : 'height: 390px; width: 560px; top: 500px; left: 600px; color: black; position: absolute; border-radius: 5px; border: 2px solid #000000; background-color: rgba(146, 146, 146, 0.647)'}))
-                $('#'+window_id).append($('<div/>', { id: window_id+"IMG_text", 'style' : 'padding: 10px; font-size: 15px; height: 80px; width: 1130px; top: 900px; left: 30px; color: black; position: absolute; border-radius: 5px; border: 2px solid #000000; background-color: rgba(146, 146, 146, 0.647)', 'html': leaf[i]["info"]}))
+                $('#'+window_id).append($('<div/>', { id: window_id+"IMG_plot1", 'style' : 'height: 390px; width: 490px; top: 80px; left: 5px; color: black; position: absolute; border-radius: 5px; border: 2px solid #000000; background-color: rgba(146, 146, 146, 0.647)'}))
+                $('#'+window_id).append($('<div/>', { id: window_id+"IMG_plot2", 'style' : 'height: 390px; width: 490px; top: 80px; left: 500px; color: black; position: absolute; border-radius: 5px; border: 2px solid #000000; background-color: rgba(146, 146, 146, 0.647)'}))
+                $('#'+window_id).append($('<div/>', { id: window_id+"IMG_plot3", 'style' : 'height: 390px; width: 490px; top: 500px; left: 5px; color: black; position: absolute; border-radius: 5px; border: 2px solid #000000; background-color: rgba(146, 146, 146, 0.647)'}))
+                $('#'+window_id).append($('<div/>', { id: window_id+"IMG_plot4", 'style' : 'height: 390px; width: 490px; top: 500px; left: 500px; color: black; position: absolute; border-radius: 5px; border: 2px solid #000000; background-color: rgba(146, 146, 146, 0.647)'}))
+                $('#'+window_id).append($('<div/>', { id: window_id+"IMG_text", 'style' : 'padding: 10px; font-size: 15px; height: 130px; width: 975px; top: 900px; left: 10px; color: black; position: absolute; border-radius: 5px; border: 2px solid #000000; background-color: rgba(146, 146, 146, 0.647)', 'html': leaf[i]["info"]}))
                 $('#'+window_id+"IMG_plot1").append($('<img/>', { id: window_id+"IMG_plot1_img", 'class' : 'plot', 'src' : "./assets/plots/Crude_Prod/"+leaf[i]["Code"]+"_crude.png"}))
                 $('#'+window_id+"IMG_plot2").append($('<img/>', { id: window_id+"IMG_plot2_img", 'class' : 'plot', 'src' : "./assets/plots/Energy_Supply/"+leaf[i]["Code"]+"_energy_supply.png"}))
                 $('#'+window_id+"IMG_plot3").append($('<img/>', { id: window_id+"IMG_plot3_img", 'class' : 'plot', 'src' : "./assets/plots/Green_Energy/"+leaf[i]["Code"]+"_green_nrg.png"}))

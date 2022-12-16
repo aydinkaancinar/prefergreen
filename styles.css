@@ -79,7 +79,7 @@ body {
 
 .tree-section {
   width: 100%;
-  background-color: gray;
+  background-color: white;
 }
 
 .tree-div {
@@ -133,9 +133,9 @@ body {
   position: absolute;
   visibility: hidden;
   top: 50px;
-  left: -100px;
-  height: 1000px;
-  width: 1200px;
+  left: 0px;
+  height: 1050px;
+  width: 1000px;
   z-index: 10;
   background-color: rgba(146, 146, 146, 0.647);
   border-radius: 20px; border: 2px solid #000000;
