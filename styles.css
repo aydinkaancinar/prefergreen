@@ -132,10 +132,10 @@ body {
 .window {
   position: absolute;
   visibility: hidden;
-  top:100px;
-  left: 100px;
-  height: 800px;
-  width: 800px;
+  top: 50px;
+  left: -100px;
+  height: 1000px;
+  width: 1200px;
   z-index: 10;
   background-color: rgba(146, 146, 146, 0.647);
   border-radius: 20px; border: 2px solid #000000;
@@ -151,7 +151,7 @@ body {
   height: 50px;
   width: 50px;
   top: 20px;
-  left: 720px;
+  right: 40px;
   background-color: salmon;
   z-index: 11;
   border-radius: 10px; border: 2px solid #000000;
