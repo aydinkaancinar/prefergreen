@@ -1,0 +1,107 @@
+---
+title: "STA313 Final Graphs"
+author: "Kacper Swierzbinski"
+date: "12/14/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+options(scipen = 999)
+library(tidyverse)
+library(ggplot2)
+#install.packages("ggimage")
+library(ggimage)
+library(scales)
+
+renew_val <- read.csv("./renew_val.csv")
+crude_prod <- read.csv("./crude_prod.csv")
+energy_supply <- read.csv("./energy_supply.csv")
+gdp_cap <- read.csv("./gdp_capita.csv")
+```
+
+```{r}
+countries <- c("ERI", "TGO", "ETH", "COD", "MOZ", "NER", "TZA", "NGA", "PAK", "IND", "CHN", "BRN", "IDN", "SGP", "JPN", "KWT", "BHR", "OMN", "QAT", "SAU", "USA", "BRA", "PRY", "MEX", "DEU", "ISL", "CHE", "RUS", "IRL", "LUX")
+```
+
+```{r}
+filtering <- function(dataset) {
+  dataset <- filter(dataset, LOCATION %in% countries)
+}
+
+renew_val <- filtering(renew_val)
+crude_prod <- filtering(crude_prod)
+energy_supply <- filtering(energy_supply)
+```
+
+```{r}
+for (x in countries) {
+  hold <- filter(renew_val, LOCATION == x)
+  
+  graph <- (hold %>%
+  ggplot(aes(x = TIME, y = Value)) +
+  geom_point() +
+  theme_bw(base_size = 10) +
+  ylim(0, 180) +
+  geom_image(aes(image = "leaf.png"), size = 0.1) +
+  labs(title = "Changes in Renewable Energy Infrastructure", x = "Year", y = "Percentage of Renewable Power Supply"))
+  
+  print(graph)
+  print(x)
+  ggsave(graph,filename=paste(x,"_green_nrg",".png",sep=""))
+}
+```
+
+```{r, warning=FALSE, message=FALSE, error=FALSE}
+for (x in countries) {
+  hold <- filter(crude_prod, LOCATION == x)
+  
+  graph <- (hold %>%
+  ggplot(aes(x = TIME, y = Value)) +
+  geom_point() +
+  theme_bw(base_size = 10) +
+  ylim(0, 540000) +
+  geom_image(aes(image = "oil.png"), size = 0.1) +
+  labs(title = "Crude Oil Production Within The Country", x = "Year", y = "Production amount in toe (Ton of Oil Equivalent)"))
+  
+  print(graph)
+  print(x)
+  ggsave(graph,filename=paste(x,"_crude",".png",sep=""))
+}
+```
+
+```{r}
+for (x in countries) {
+  hold <- filter(energy_supply, LOCATION == x)
+  
+  graph <-(hold %>%
+  ggplot(aes(x = TIME, y = Value)) +
+  geom_point() +
+  theme_bw(base_size = 10) +
+  ylim(0, 3100) +
+  geom_image(aes(image = "electricity.png"), size = 0.1) +
+  labs(title = "Energy Supply Used by Country", x = "Year", y = "Energy Supply in Million toe (Ton of Oil Equivalent)"))
+  
+  print(graph)
+  print(x)
+  ggsave(graph,filename=paste(x,"_energy_supply",".png",sep=""))
+}
+```
+
+```{r}
+gdp_cap1 <- gdp_cap
+for (i in 2:ncol(gdp_cap)) {
+
+  graph <-(gdp_cap %>%
+  ggplot(aes(x = Year, y = gdp_cap[ ,i])) +
+  geom_point() +
+  theme_bw(base_size = 10) +
+  ylim(0, 125000) +
+  geom_image(aes(image = "money.png"), size = 0.05) +
+  labs(title = "Changes in Country's GDP per Capita", x = "Year", y = "Thousand (constant 2015 US$)"))
+  
+  print(graph)
+  print(colnames(gdp_cap1[i]))
+  ggsave(graph,filename=paste(colnames(gdp_cap1[i]),"_gdp_cap",".png",sep=""))
+}
+
+```
